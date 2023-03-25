@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cape Town | South Africa Travel</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../Style.css">
+</head>
+<body>
+
+  <div class="hero-subpage">
+    <div class="hero-overlay">
+      <h1 class="hero-text">Top attractions in Cape Town</h1>
+    </div>
+    <div class="copyright">© Photographer Name</div>
+  </div>
+
+  <div class="content-container">
+
+    <div id="navbar"></div>
+
+    <section class="Box-blue">
+      <div class="container">
+      <center><img alt="Information" src="../Icons/Information.svg" class="" height="100px"></center>
+        <h2>What to know about <span class="highlight">Cape Town</span></h2>
+        <P>Cape Town is a city that has something for everyone. Whether you are looking for nature, culture, history, adventure or relaxation, you will find it in this vibrant and scenic metropolis.</P>
+        <p>Cape Town is located on the southwestern tip of Africa, where the Atlantic Ocean meets the Indian Ocean. It is surrounded by stunning natural features such as Table Mountain, one of the New 7 Wonders of the world; Cape Point, where you can see two oceans collide; and Boulders Beach, where you can swim with penguins.</p>
+      </div>
+    </section>
+
+    <section class="Box-white">
+      <div class="container">
+        <h2><span class="highlight">Cape Town:</span> A City of Beauty and Diversity</h2>
+        <P>Cape Town is also rich in cultural heritage and diversity. It is home to people of various ethnicities, languages and religions. You can explore its historic sites such as the Castle of Good Hope, the oldest surviving building in South Africa; District Six Museum, which tells the story of forced removals under apartheid; and Robben Island, where Nelson Mandela was imprisoned for 18 years.</P>
+        <p>Cape Town is also a foodie's paradise. You can enjoy its diverse cuisine that reflects its multicultural influences. From fish and chips to bunny chow to croissants, you will find something to suit your taste buds. You can also sample some of the finest wines in the world at the Cape Winelands, just outside of Cape Town.</p>
+        <p>Cape Town is a city that offers endless possibilities for fun and exploration. You can take a cable car to the top of Table Mountain and enjoy panoramic views of the city; visit Kirstenbosch National Botanical Garden and marvel at its floral diversity; dive with sharks at Two Oceans Aquarium; shop at Victoria & Alfred Waterfront; or relax at Camps Bay Beach.</p>
+        <p>Cape Town is a city that will captivate you with its beauty and charm. It is no wonder that it has been named as one of the best places in the world to visit by The New York Times and The Daily Telegraph . If you are looking for a destination that has it all, look no further than Cape Town.</p>
+      </div>
+    </section>
+
+    <section class="Top-attractions-box">
+      <div class="container">
+        <h2>Cape Town's <span class="highlight">Big Six Attractions</span></h2>
+        <P>There are many attractions to see in Cape Town, depending on your interests and preferences. Here are some of the top attractions that you might want to visit:</P>
+      </div>
+    </section>
+
+    <div class="footer-container"></div>
+
+  </div>
+
+  <script>
+    const menuItems = document.querySelectorAll(".menu-item");
+
+    menuItems.forEach(item => {
+      item.addEventListener("click", () => {
+        menuItems.forEach(i => i.classList.remove("active"));
+        item.classList.add("active");
+      });
+    });
+  </script>
+
+  <script src="../Static/Navbar.js"></script>
+  <script src="../Static/Footer.js"></script>
+
+</body>
+</html>
